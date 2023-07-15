@@ -1,0 +1,321 @@
+/* General Styles */
+:root {
+  background-color:#0A122A;
+}
+
+h1 {
+  color:#FFF;
+  justify-content:center;
+  font-size: 70px; 
+}
+
+p {
+  font-size:12px;
+}
+
+/* Navigation Bar */
+.navigation {
+  display:grid; /* used for vertical layout*/
+  grid-template-columns:1fr; /* only add one column for navigation menu */
+}
+
+.horizontal-nav {
+  display:flex; /* used for horizontal layout*/
+  justify-content: flex-end; /* Align navigation items to the end (right) */
+
+}
+
+/* adding styles to each navigation item, 
+like colors, padding, fontsize, and text-color */
+.horizontal-nav a {
+  background-color: #806a6a21;
+  padding: 10px;
+  text-decoration: none;
+  font-size:25px;
+  color:#FFF;
+}  
+
+/*.horizontal-nav a:hover {
+  background-color: #ddd;
+} */
+
+/* About Me */
+.box-content-1 {
+  display:flex;
+  color:#FFF;
+  justify-content: center;
+}
+
+.box-1 {
+  display: flex;
+  background-color: rgb(247, 242, 242);
+  border-style:outset;
+  border-width: 5px;
+  border-color:#407cc0;
+  border-radius:10px;
+  border-left-width:10px;
+  border-bottom-width:10px;
+  width: 230px;
+  height: 350px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.paragraph-align-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7px;
+}
+
+.paragraph-align-1 p {
+  margin: 0;
+  text-align: center;
+}
+
+/* Portfolio */
+
+.box-content-2 {
+  display: flex;
+  justify-content: center;
+  color:#FFF;
+}
+
+.box-2 {
+  display: flex;
+  background-color: rgb(247, 242, 242);
+  border-style:outset;
+  border-width: 5px;
+  border-color:#407cc0;
+  border-radius:10px;
+  border-left-width:10px;
+  border-bottom-width:10px;
+  width: 230px;
+  height: 350px;
+  padding: 50px;
+  margin: 20px;
+
+}
+
+.paragraph-align-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7px;
+}
+
+.paragraph-align-2 p {
+  margin: 0;
+  text-align: center;
+}
+
+.box-content-3 {
+  display: flex;
+  justify-content: center;
+  color:#FFF;
+}
+
+.box-3 {
+  display: flex;
+  background-color: rgb(247, 242, 242);
+  border-style:outset;
+  border-width: 5px;
+  border-color:#407cc0;
+  border-radius:10px;
+  border-left-width:10px;
+  border-bottom-width:10px;
+  width: 230px;
+  height: 350px;
+  padding: 50px;
+  margin: 20px;
+
+}
+
+.paragraph-align-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7px;
+}
+
+.paragraph-align-3 p {
+  margin: 0;
+  text-align: center;
+}
+
+
+.box-content-4 {
+  display: flex;
+  justify-content: center;
+  color:#FFF;
+}
+
+
+.box-4 {
+  display: flex;
+  background-color: rgb(247, 242, 242);
+  border-style:outset;
+  border-width: 5px;
+  border-color:#407cc0;
+  border-radius:10px;
+  border-left-width:10px;
+  border-bottom-width:10px;
+  width: 230px;
+  height: 350px;
+  padding: 50px;
+  margin: 20px;
+
+}
+
+.paragraph-align-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7px;
+}
+
+.paragraph-align-4 p {
+  margin: 0;
+  text-align: center;
+}
+
+.box-content-5 {
+  display: flex;
+  justify-content: center;
+  color:#FFF;
+}
+
+.box-5 {
+  display: flex;
+  background-color: rgb(247, 242, 242);
+  border-style:outset;
+  border-width: 5px;
+  border-color:#407cc0;
+  border-radius:10px;
+  border-left-width:10px;
+  border-bottom-width:10px;
+  width: 230px;
+  height: 350px;
+  padding: 50px;
+  margin: 20px;
+
+}
+
+.paragraph-align-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7px;
+}
+
+.paragraph-align-5 p {
+  margin: 0;
+  text-align: center;
+}
+
+/* Experiences */
+
+.experiences {
+  text-align: center;
+  color:#FFF;
+}
+
+.box-row-1 {
+  display:flex;
+  justify-content: center;
+}
+
+.e-box-1 {
+  display: flex;
+  background-color: lightgrey;
+  width: 70px;
+  height: 70px;
+  border: 15px black;
+  border-radius: 25px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.e-box-2 {
+  display: flex;
+  background-color: lightgrey;
+  width: 70px;
+  height: 70px;
+  border: 15px black;
+  border-radius: 25px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.e-box-3 {
+  display: flex;
+  background-color: lightgrey;
+  width: 70px;
+  height: 70px;
+  border: 15px black;
+  border-radius: 25px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.e-box-4 {
+  display: flex;
+  background-color: lightgrey;
+  width: 70px;
+  height: 70px;
+  border: 15px black;
+  border-radius: 25px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.e-box-5 {
+  display: flex;
+  background-color: lightgrey;
+  width: 70px;
+  height: 70px;
+  border: 15px black;
+  border-radius: 25px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.e-box-6 {
+  display: flex;
+  background-color: lightgrey;
+  width: 70px;
+  height: 70px;
+  border: 15px black;
+  border-radius: 25px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.e-box-7 {
+  display: flex;
+  background-color: lightgrey;
+  width: 70px;
+  height: 70px;
+  border: 15px black;
+  border-radius: 25px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.e-box-8 {
+  display: flex;
+  background-color: lightgrey;
+  width: 70px;
+  height: 70px;
+  border: 15px black;
+  border-radius: 25px;
+  padding: 50px;
+  margin: 20px;
+}
+
+/* Contact */
+.contact {
+  text-align: center;
+  color:#FFF;
+}
+
